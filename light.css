@@ -1,0 +1,55 @@
+.light{
+    position: absolute;
+    background-color: #FF0000 ;
+    height: 10px;
+    width : 10px;
+    border-radius: 50%;
+    top: 85px;
+    left: 100px ;
+    z-index : 4000;
+    animation: blink 1s infinite alternate;
+}
+
+.light:nth-child(1){
+    background-color: #1E90FF;
+    top: 96px;
+    left: 80px ;
+}
+
+.light:nth-child(2){
+    background-color: #800080;
+    top: 175px;
+    left: 60px ;
+}
+
+.light:nth-child(3){
+    background-color: #FFF8DC;
+    top: 185px;
+    left: 92px ;
+}
+
+.light:nth-child(4){
+    background-color: #f3d870;
+    top: 200px;
+    left: 120px ;
+}
+
+.light:nth-child(5){
+    background-color: #93790d;
+    top: 160px;
+    left: 30px ;
+}
+
+.light:nth-child(6){
+    background-color:  #B22222;
+    top: 100px;
+    left: 50px ;
+}
+
+
+
+/* 閃爍動畫 */
+@keyframes blink {
+  from { opacity: 0.3; }
+  to   { opacity: 1; }
+}

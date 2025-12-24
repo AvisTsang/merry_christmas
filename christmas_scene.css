@@ -1,0 +1,130 @@
+.christmas_scene{
+    margin : 0px;
+    padding : 0px;
+    display : flex ;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    top : 75% ;
+    left : 25%;
+    width : 180px ;
+    height : 400px ;
+    background-color: transparent;
+    scale : 1.5 ;
+}
+
+.star_label {
+  position: absolute;
+  width: 60px;          /* 固定大小，方便控制 */
+  aspect-ratio: 1/1;
+  background-color: transparent;
+  top : 0px ;
+  left : 58px ;
+  z-index: 1000;
+  scale : 0.75 ;
+}
+
+/* 第一個三角形 */
+.star_1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  border-top: 20px solid #FFD700;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  box-shadow: 2px 2px 10 yellow;
+  z-index: 4000;
+}
+
+/* 第二個三角形 */
+.star_2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(72deg);
+  border-top: 20px solid #FFD700;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  box-shadow: 2px 2px 10 yellow;
+  z-index: 3000;
+}
+
+/* 第三個三角形 */
+.star_3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(144deg);
+  border-top: 20px solid #FFD700;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  box-shadow: 2px 2px 10 yellow;
+  z-index: 3000;
+}
+
+.christmas_tree{
+    display : flex ;
+    position :  absolute ;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+    background-color: transparent ;
+    top : 20px;
+    width : 180px;
+    height : 350px;
+
+}
+
+.christmas_tree_body{
+    position : relative ;
+    top :  0px;
+    left : 0px;
+    border-left : 90px solid transparent;
+    border-right : 90px solid transparent;
+    border-bottom : 270px solid #127425;
+    border-radius: 20px ;
+    z-index : 1 ;
+}
+
+.christmas_tree_bottom{
+    position : absolute ;
+    background-color: #7f5125;
+    height : 100px ;
+    width : 60px ;
+    border-radius: 10%;
+    left : 65px;
+    top : 220px;
+    z-index : 0;
+    box-shadow: 1px 1px 10px #4d3117;
+}
+
+.chain{
+    position: relative;
+    width : 80px;
+    height : 85px;
+    border : none ;
+    border-bottom: 5px solid #ffd700;
+    border-left: 1px solid #ffd700;
+    border-radius :100%;
+    transform: rotate3d(8,0.5,-3,80deg);
+    top : -200px;
+    left: 48px;
+    box-sizing : border-box ;
+    z-index : 2 ;
+}
+
+.chain2{
+    position: relative;
+    width : 150px;
+    height : 80px;
+    border : none ;
+    border-bottom: 6px solid #ffd700;
+    border-right: 1px solid #ffd700;
+    border-radius :75%;
+    transform: rotate3d(15,0.5,5,80deg);
+    top : -145px;
+    left: 22px;
+    box-sizing : border-box ;
+    z-index : 2 ;
+}
