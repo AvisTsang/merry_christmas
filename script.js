@@ -31,6 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 改背景色
     document.body.style.backgroundColor = "#0b1d3a";
+    document.body.classList.add("blink");
   });
 });
+
 
