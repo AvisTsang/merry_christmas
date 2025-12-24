@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const start = document.querySelector(".start");
   const scene = document.querySelector(".christmas_scene");
   const text = document.querySelector(".xmas");
+  const text2= document.querySelector(".text2");
   const music = document.getElementById('xmasMusic');
 
   scene.style.display = "none" ;
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     timer.style.display = "none";
     bulb.style.display = "none";
     start.style.display = "none";
+    text2.style.display = "none";
 
     if (music.paused){
         music.play();
@@ -31,3 +33,4 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.style.backgroundColor = "#0b1d3a";
   });
 });
+
