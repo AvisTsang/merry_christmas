@@ -7,7 +7,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(25, 25, 25);
-    
+    transition: background-color 3s ease;
     /*background-color: #0b1d3a;*/
     z-index : 100 ;
 
@@ -19,7 +19,7 @@ body{
     flex-direction: column;
     background-color: transparent;
     height : 300px ;
-    width : 180px;
+    width : 250px;
     justify-content: center;
     align-items: center;
 }
@@ -29,5 +29,6 @@ body{
     font-family: "Share Tech Mono", monospace;
     color: white ;
 }
+
 
 
