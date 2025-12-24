@@ -12,10 +12,11 @@
     font-size: 100%;
     border : 5px solid rgb(191, 150, 48) ;
     text-align : center; 
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .Timer_label div{
     font-family: "Share Tech Mono", monospace;
     color: white ;
+
 }
